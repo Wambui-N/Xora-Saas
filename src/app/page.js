@@ -1,7 +1,9 @@
+import { Header } from "@/Components";
+
 export default function Home() {
-  return(
-    <main className="">
-      <h1 className="h1">Hello World</h1>
+  return (
+    <main className="overflow-hidden">
+      <Header />
     </main>
-  )
+  );
 }
