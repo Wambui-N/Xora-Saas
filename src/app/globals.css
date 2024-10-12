@@ -301,6 +301,11 @@
     @apply absolute top-6 size-2.5 rounded-half;
   }
 
+  .transition-max-height {
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+
   /*  END of Download*/
   /*  START of Footer */
   .legal-after {
